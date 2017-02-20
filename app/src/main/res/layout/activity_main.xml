@@ -12,14 +12,14 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonToNotify"
+        android:id="@+id/button_to_notify"
         android:layout_alignParentBottom="true"
         android:text="@string/notify_button_text"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonToCustomNotify"
-        android:layout_above="@id/buttonToNotify"
+        android:id="@+id/button_to_custom_notify"
+        android:layout_above="@id/button_to_notify"
         android:text="@string/custom_notify_button_text"/>
 
 </RelativeLayout>
